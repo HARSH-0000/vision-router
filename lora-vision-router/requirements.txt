@@ -1,9 +1,11 @@
-torch>=2.2.0
-torchvision>=0.17.0
-transformers>=4.40.0
-peft>=0.10.0
-fastapi>=0.110.0
-uvicorn>=0.29.0
-python-multipart>=0.0.9
-pillow>=10.2.0
-pytest>=8.0.0
+# Tested together on Python 3.11. Keep torch/torchvision versions paired.
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.46.3
+peft==0.13.2
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.17
+Pillow==11.0.0
+pytest==8.3.3
+httpx==0.28.1
